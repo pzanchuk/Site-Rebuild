@@ -1,0 +1,50 @@
+.header div{
+  padding-left: 25px;
+  width: 100%;
+  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-bar-left{
+  float: left;
+}
+
+.nav-bar-right{
+  position: absolute;
+  right: 150px;
+  top: 5px;
+}
+
+.black-link {
+  color: black;
+}
+
+.header ul {
+  font-family: Helvetica Neue;
+  font-size: 13px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.nav-bar-left li {
+  display: inline;
+  padding-right: 3px;
+}
+
+.nav-bar-right li {
+  display: inline;
+}
+
+.nav-bar-right img{
+  padding-bottom: 1px;
+  width: 25px;
+  height: 22px;
+}
