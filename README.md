@@ -1,32 +1,27 @@
 
 # _Site Rebuild_
 
-#### _03.29.2019_
+#### _04.5.2019_
 
 #### By _**Pavel Zanchuk**_
 
 ## Description
 
-_This program makes a search of nearby doctors based on user's input. Search returns 60 doctors per request._
+_This is a clone of ebay.com webpage with some functionality._
 
 ## Specifications
 
-* _Program accepts user input for name._
-  * _Example input: "Olga"._
-  * _Example output: program lists all doctors with either last or first name Olga in WA state._
+* _in progress._
 
-* _Program accepts user input for illness._
-  * _Example input: "sore throat"._
-  * _Example output: program lists all doctors that specialize in sore throat treatment._
 
 ## Setup/Installation Requirements
-* _Navigate your web browser to https://github.com/pzanchuk/Doctor-Lookup
+* _Navigate your web browser to https://github.com/pzanchuk/Site-Rebuild
 * _Click the green button "Clone or download" on the repository page._
 * _To download the repository choose "Open in Desktop" or "Download Zip"._
-* _Alternatively, to clone the repository, type "git clone https://github.com/pzanchuk/Doctor-Lookup in the terminal". (Note!: git, node.js should be installed on your PC).  For more information visit GitHub Help section Cloning a repository from GitHub:
-https://github.com/pzanchuk/Doctor-Lookup
-* _User must have his own API-key. Get the key at https://developer.betterdoctor.com/. Create .env folder in the mane folder(Doctor-Lookup), and assign your API-KEY to exports.apiKey variable._
-* _To run the project in browser: navigate to ../Doctor-Lookup and ran these lines to restore files "npm install" and "npm run build", then "npm run start". Project will be loaded at a http://localhost:8080/_
+* _Alternatively, to clone the repository, type "git clone https://github.com/pzanchuk/Site-Rebuild in the terminal". (Note!: git, node.js should be installed on your PC).  For more information visit GitHub Help section Cloning a repository from GitHub:
+https://github.com/pzanchuk/Site-Rebuild
+* _Angular mast be installed._
+* _To run the project in browser: navigate to ../Site-Rebuild and run these lines to restore files "npm install", then "ng serve". Project will be loaded at a http://localhost:4200/_
 
 
 ## Support and contact details
@@ -36,7 +31,7 @@ _Pavel Zanchuk - buzzik@yahoo.com_
 
 ## Technologies Used
 
-_This program was created using JS, Jquery, HTML5_
+_This program was created using Angular/TS, HTML5, Bootsrap_
 
 ### License
 
