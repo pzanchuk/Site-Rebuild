@@ -1,7 +1,7 @@
 .header div{
   padding-left: 25px;
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .nav-bar-left{
   float: left;
@@ -9,7 +9,7 @@
 
 .nav-bar-right{
   position: absolute;
-  right: 25px;
+  right: 150px;
   top: 5px;
 }
 
@@ -50,6 +50,19 @@
 }
 
 .underheader{
-  padding: 30px;
+  padding-top: 30px;
+  padding-left: 13px;
   border: solid red;
+}
+
+.underheader img{
+  width: 117px;
+  height: 45px;
+}
+
+.shop-category{
+  padding-left: 20px;
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 1;
 }
