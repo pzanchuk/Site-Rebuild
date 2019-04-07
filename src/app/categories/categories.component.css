@@ -13,7 +13,7 @@ ul{
 
 li{
   font-family: "Market Sans", Arial, sans-serif;
-  padding: 12px;
+  padding: 11px;
   display: inline;
 }
 
@@ -23,4 +23,14 @@ a{
 
 a:hover{
   color: blue;
+}
+
+.home{
+  color: black;
+  font-weight: bold;
+}
+
+.fa-heart{
+  font-size: 10px;
+  color: #707070;
 }

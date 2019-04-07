@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { SearchComponent } from './search/search.component';
 import { CategoriesComponent } from './categories/categories.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { CategoriesComponent } from './categories/categories.component';
     AppComponent,
     LoginComponent,
     SearchComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule
