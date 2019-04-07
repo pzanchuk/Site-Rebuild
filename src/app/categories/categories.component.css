@@ -1,0 +1,26 @@
+.categories{
+  padding-left: 5%;
+  border-top: 1px solid #cccccc;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+ul{
+  font-family: Helvetica Neue;
+  font-size: 13px;
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  font-family: "Market Sans", Arial, sans-serif;
+  padding: 12px;
+  display: inline;
+}
+
+a{
+  color: #606060;
+}
+
+a:hover{
+  color: blue;
+}
