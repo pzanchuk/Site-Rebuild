@@ -13,7 +13,6 @@ _This is a clone of ebay.com webpage with some functionality._
 
 * _in progress._
 
-
 ## Setup/Installation Requirements
 * _Navigate your web browser to https://github.com/pzanchuk/Site-Rebuild
 * _Click the green button "Clone or download" on the repository page._
@@ -21,7 +20,7 @@ _This is a clone of ebay.com webpage with some functionality._
 * _Alternatively, to clone the repository, type "git clone https://github.com/pzanchuk/Site-Rebuild in the terminal". (Note!: git, node.js should be installed on your PC).  For more information visit GitHub Help section Cloning a repository from GitHub:
 https://github.com/pzanchuk/Site-Rebuild
 * _Angular mast be installed._
-* _To run the project in browser: navigate to ../Site-Rebuild and run these lines to restore files "npm install", then "ng serve". Project will be loaded at a http://localhost:4200/_
+* _To run the project in browser: navigate in terminal to ../Site-Rebuild and run these lines to restore files "npm install", then "ng serve". Project will be loaded at a http://localhost:4200/_
 
 
 ## Support and contact details
@@ -31,7 +30,7 @@ _Pavel Zanchuk - buzzik@yahoo.com_
 
 ## Technologies Used
 
-_This program was created using Angular/TS, HTML5, Bootsrap_
+_This website was created using Angular/TS, HTML5, Bootstrap_
 
 ### License
 

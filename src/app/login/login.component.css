@@ -49,3 +49,25 @@
   width: 25px;
   height: 22px;
 }
+
+#sign-in, #register{
+  padding: 0;
+  margin: 0;
+  color: blue;
+  border: none;
+  background: none;
+}
+
+#sell{
+  border: none;
+  background: none;
+}
+
+.nav-bar-left button:hover {
+  text-decoration: underline;
+}
+
+.nav-bar-right button:hover {
+  text-decoration: underline;
+  color: blue;
+}
