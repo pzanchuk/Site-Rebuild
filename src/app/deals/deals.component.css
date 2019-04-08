@@ -1,0 +1,35 @@
+.deals-wrapper{
+  margin-top: 32px;
+}
+
+img{
+  width: 80%;
+  height: auto;
+}
+
+h1{
+  padding-left: 1%;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Market Sans", Arial, sans-serif;
+}
+
+h4{
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Market Sans", Arial, sans-serif;
+}
+
+img:hover {
+  border-radius: 80px;
+   -moz-box-shadow:    inset 0 0 20px #FFFFFF;
+   -webkit-box-shadow: inset 0 0 20px #000000;
+   box-shadow:         inset 5 5 20px #000000;
+}
+
+table{
+  margin-left: 3%;
+  margin-right: 30px;
+  text-align: center;
+}
