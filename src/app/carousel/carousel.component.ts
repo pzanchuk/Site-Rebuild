@@ -13,6 +13,7 @@ export class CarouselComponent {
       { name: '../assets/img/carousel3.jpg' },
       { name: '../assets/img/carousel2.jpg' },
       { name: '../assets/img/carousel1.jpg' },
+      { name: '../assets/img/carousel4.jpg' },
     ];
   }
 
