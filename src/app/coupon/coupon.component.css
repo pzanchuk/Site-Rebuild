@@ -1,0 +1,57 @@
+.coupon-wrapper{
+  padding: 3%;
+  margin: 3%;
+  background-color: green;
+  animation-name: coup;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes coup {
+  0%   {background-color:red;}
+  25%  {background-color:orange;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:red;}
+}
+
+h1{
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  font-family: "Market Sans", Arial, sans-serif;
+}
+
+h4{
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  font-family: "Market Sans", Arial, sans-serif;
+}
+
+.coupon{
+  display:inline-block;
+}
+.get-coupon{
+  background-color: #9130f2;
+  border-radius: 3px;
+  margin: 12px;
+  padding: 10px;
+  display: inline-block;
+  float:right;
+  transition:all 0.3s ease;
+}
+
+.get-coupon{
+  opacity: 0.5;
+}
+
+.get-coupon:hover
+{
+  opacity:1;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}

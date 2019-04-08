@@ -7,6 +7,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 import { DealsComponent } from './deals/deals.component';
+import { CouponComponent } from './coupon/coupon.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { DealsComponent } from './deals/deals.component';
     SearchComponent,
     CategoriesComponent,
     CarouselComponent,
-    DealsComponent
+    DealsComponent,
+    CouponComponent
   ],
   imports: [
     BrowserModule,
