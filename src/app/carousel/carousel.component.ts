@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent {
+  items: Array<any> = [];
 
-  
+  constructor(){
+    this.items = [
+      { name: '../assets/img/carousel1.jpg' },
+      { name: '../assets/img/carousel2.jpg' },
+      { name: '../assets/img/carousel3.jpg' },
+    ];
+  }
+
 }

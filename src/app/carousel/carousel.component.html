@@ -1,0 +1,23 @@
+<div class="carousel-wrapper">
+  <div ng2-carouselamos class="slider-wrapper"
+    [items]="items"
+    [width]="1350"
+    [$prev]="prev"
+    [$next]="next"
+    [$item]="item">
+  </div>
+
+  <ng-template #prev>
+    <img src="../assets/img/left-arrow.png" id="left">
+  </ng-template>
+
+  <ng-template #next>
+    <img  src="../assets/img/right-arrow.png" id="right">
+  </ng-template>
+
+  <ng-template #item let-item let-i="index">
+    <div class="items">
+      <a href="#ebay-link"><img src="{{item.name}}"></a>
+    </div>
+  </ng-template>
+</div>
