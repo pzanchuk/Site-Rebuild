@@ -1,12 +1,13 @@
 .categories{
-  padding-left: 5%;
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
   margin-top: 20px;
-  padding-top: 15px;
+  padding-top: 5px
 }
 
 ul{
+  margin-bottom: 5px;
+  text-align: center;
   font-family: Helvetica Neue;
   font-size: 13px;
   list-style-type: none;
@@ -15,15 +16,32 @@ ul{
 
 li{
   font-family: "Market Sans", Arial, sans-serif;
-  padding: 11px;
   display: inline;
 }
 
+.saved a{
+  border: none;
+}
+
+#no{
+  border: none;
+}
+
+
+
 a{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 8px;
+  padding-right: 8px;
   color: #606060;
 }
 
 a:hover{
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
   color: blue;
 }
 
@@ -35,4 +53,40 @@ a:hover{
 .fa-heart{
   font-size: 10px;
   color: #707070;
+}
+
+/* ======================================= */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  min-height: 300px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  border: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {text-decoration: underline;}
+
+.dropdown:hover .dropdown-content {
+  text-align: left;
+  display: block;
+  margin-top: 5px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
 }
