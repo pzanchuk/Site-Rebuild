@@ -1,23 +1,17 @@
-.header div{
-  /* padding-left: 13%;
-  padding-right: 17%; */
-  width: 100%;
-  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-}
 .nav-bar-left{
-  padding-left: 330px;
   float: left;
+  padding-left: 30px;
 }
 
 .nav-bar-right{
-  position: absolute;
-
-  right: 380px;
-  top: 5px;
+  height: 32px;
+  padding-top: 5px;
+  float: right;
+  margin-right: 30px;
 }
 
 .black-link {
-  color: black;
+  color: #555;
 }
 
 .header ul {

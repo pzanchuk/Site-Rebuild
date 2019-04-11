@@ -1,6 +1,7 @@
 .underheader {
   padding-top: 40px;
-  padding-left: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .underheader img{
@@ -8,7 +9,12 @@
   height: 45px;
 }
 
+.fa-sort-down{
+  color: #707070;
+}
+
 .shop-category{
+  color: #707070;
   border: none;
   background: none;
   font-size: 14px;
@@ -22,7 +28,7 @@
 
 .advanced a{
   font-size: 12px;
-  color: black;
+  color: #707070;
 }
 
 .advanced a:hover{
