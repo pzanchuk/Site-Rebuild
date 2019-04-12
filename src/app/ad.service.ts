@@ -14,4 +14,8 @@ export class AdService {
   getAds() {
     return this.ads;
   }
+
+  saveAd(newAd: Ad){
+    this.ads.push(newAd);
+  }
 }
