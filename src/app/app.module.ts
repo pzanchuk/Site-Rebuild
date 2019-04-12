@@ -11,6 +11,10 @@ import { CouponComponent } from './coupon/coupon.component';
 import { TrendingComponent } from './trending/trending.component';
 import { DayliDealsComponent } from './dayli-deals/dayli-deals.component';
 import { AdComponent } from './ad/ad.component';
+import { AboutComponent } from './about/about.component';
+import { routing } from './app.routing';
+import { HomeComponent } from './home/home.component';
+import { NewAdComponent } from './new-ad/new-ad.component';
 
 
 @NgModule({
@@ -24,11 +28,15 @@ import { AdComponent } from './ad/ad.component';
     CouponComponent,
     TrendingComponent,
     DayliDealsComponent,
-    AdComponent
+    AdComponent,
+    AboutComponent,
+    HomeComponent,
+    NewAdComponent
   ],
   imports: [
     BrowserModule,
-    Ng2CarouselamosModule
+    Ng2CarouselamosModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
