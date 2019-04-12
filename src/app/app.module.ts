@@ -8,6 +8,9 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 import { DealsComponent } from './deals/deals.component';
 import { CouponComponent } from './coupon/coupon.component';
+import { TrendingComponent } from './trending/trending.component';
+import { DayliDealsComponent } from './dayli-deals/dayli-deals.component';
+import { AdComponent } from './ad/ad.component';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { CouponComponent } from './coupon/coupon.component';
     CategoriesComponent,
     CarouselComponent,
     DealsComponent,
-    CouponComponent
+    CouponComponent,
+    TrendingComponent,
+    DayliDealsComponent,
+    AdComponent
   ],
   imports: [
     BrowserModule,

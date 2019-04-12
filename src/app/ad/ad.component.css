@@ -1,15 +1,16 @@
-.coupon-wrapper{
+.coupo-wrapper{
+  height: 200px;
   padding: 1%;
   margin: 1%;
-  background-color: green;
-  animation-name: coup;
+  background-color: orange;
+  animation-name: zep;
   animation-duration: 12s;
   animation-iteration-count: infinite;
 }
 
-@keyframes coup {
-  0%   {background-color:green;}
-  50%  {background-color:orange;}
+@keyframes zep {
+  0%   {background-color:orange;}
+  50%  {background-color:green;}
 }
 
 h1{
@@ -27,21 +28,24 @@ h4{
 }
 
 .coupon{
-  display:inline-block;
+  padding-top: 50px;
+  padding-right: 50px;
+  float:right;
+
 }
 .get-coupon{
   border-radius: 2px;
   border: 1px solid white;
-  margin: 12px;
-  padding: 10px;
+  margin: 50px;
+  padding: 20px;
   display: inline-block;
-  float:right;
+
   transition:all 0.3s ease;
 }
 
 .get-coupon:hover{
   color: green;
-  box-shadow: inset 0 0 0 25px white;
+  box-shadow: inset 0 0 0 35px white;
 }
 
 a{

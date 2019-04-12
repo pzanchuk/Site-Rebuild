@@ -1,0 +1,63 @@
+.trending-wrapper{
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+h1{
+  color: #111820;
+  float: left;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Market Sans", Arial, sans-serif;
+}
+
+.last{
+  float:right;
+}
+
+i{
+  font-size: 12px;
+  color: #606060;
+}
+
+.second{
+  margin-left: 28px;
+}
+
+.sp{
+  font-size: 18px;
+}
+
+span.sp2{
+  color: #999999;
+  font-size: 12px;
+  float: right;
+  margin-top: 20px;
+}
+
+h2{
+  padding-top: 8px;
+  color: #606060;
+  font-size: 35px;
+  font-weight:900;
+}
+
+a.upper{
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
+  font-family: "Market Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+
+.text{
+  margin-top: 20px;
+  position: absolute;
+}
+
+.image{
+  display: inline-block;
+  margin-top: 70px;
+}
