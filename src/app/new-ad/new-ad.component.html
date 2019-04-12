@@ -14,15 +14,11 @@
     <label for="brand">Enter Your Ad Text: </label>
     <textarea #newText></textarea>
   </div>
-
-
-
-  <div class="submit-form">
-    <a ><button class="btn btn-dark" (click)="submitForm(newTitle.value, newText.value, color.value); newTitle.value = ''; newText.value = '';">Create Add</button></a>
+  <div class="color">
+    <label for="color">Pick a Color: </label>
+    <input id="color" #color type="color">
   </div>
-</div>
-
-<div class="form-group">
-  <label for="color">Pick a Color: </label>
-  <input id="color" #color class="form-control" type="color">
+  <div class="submit-form">
+    <a routerLink=""><button class="btn btn-dark" (click)="submitForm(newTitle.value, newText.value, color.value); newTitle.value = ''; newText.value = '';">Create Add</button></a>
+  </div>
 </div>

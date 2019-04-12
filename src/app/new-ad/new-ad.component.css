@@ -16,11 +16,15 @@
   height: 350px;
 }
 
+#color{
+  height: 70px;
+}
+
 
 input{
   width: 400px;
   margin-left: 100px;
-  box-sizing: border-box;
+
 }
 textarea{
   margin-left: 117px;

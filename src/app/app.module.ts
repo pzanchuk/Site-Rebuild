@@ -19,6 +19,7 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { ShowAdsComponent } from './show-ads/show-ads.component';
+import { FooterComponent } from './footer/footer.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -42,7 +43,8 @@ export const firebaseConfig = {
     AboutComponent,
     HomeComponent,
     NewAdComponent,
-    ShowAdsComponent
+    ShowAdsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

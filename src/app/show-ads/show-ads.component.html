@@ -1,7 +1,6 @@
-<h2>Show adds</h2>
-
-<div  *ngFor="let ad of ads | async" [style.background-color]="ad.color">
+<div class="show-main" *ngFor="let ad of ads | async" [style.background-color]="ad.color">
   <div class="panel-body">
-    <h3><em>{{ad.title}}</em> and text {{ad.text}}</h3>
+    <h1>{{ad.title}}</h1>
+    <h3>{{ad.text}}</h3>
   </div>
 </div>

@@ -1,0 +1,59 @@
+hr{
+  color: #606060;
+  height: 20px;
+  width: 100%;
+}
+
+.footer-wrapper{
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+th{
+  color: #606060;
+  padding-bottom: 15px;
+  font-size: 19px;
+}
+
+a{
+  color: #707070;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  font-size: 12px;
+}
+
+td{
+  margin: 20px;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #707070;
+}
+
+i{
+  font-size: 30px;
+}
+
+.ft{
+  margin-top: 50px;
+  float: right;
+  padding: 10px;
+}
+
+table{
+  float: left;
+}
+
+.personal{
+  float: left;
+  margin: 50px;
+}
