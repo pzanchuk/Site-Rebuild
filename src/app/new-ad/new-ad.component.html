@@ -12,6 +12,9 @@
   </div>
   <div>
     <label for="brand">Enter Your Ad Text: </label>
-    <textarea #text></textarea>
+    <textarea #newText></textarea>
+  </div>
+  <div class="submit-form">
+    <button class="btn btn-dark" (click)="submitForm(newTitle.value, newText.value); newTitle.value = ''; newText.value = '';">Create Add</button>
   </div>
 </div>

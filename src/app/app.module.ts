@@ -15,7 +15,17 @@ import { AboutComponent } from './about/about.component';
 import { routing } from './app.routing';
 import { HomeComponent } from './home/home.component';
 import { NewAdComponent } from './new-ad/new-ad.component';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { ShowAdsComponent } from './show-ads/show-ads.component';
 
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -31,12 +41,15 @@ import { NewAdComponent } from './new-ad/new-ad.component';
     AdComponent,
     AboutComponent,
     HomeComponent,
-    NewAdComponent
+    NewAdComponent,
+    ShowAdsComponent
   ],
   imports: [
     BrowserModule,
     Ng2CarouselamosModule,
-    routing
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

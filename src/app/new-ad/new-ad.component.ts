@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Ad } from '../models/ad.model';
 
 @Component({
   selector: 'app-new-ad',
@@ -10,6 +11,10 @@ export class NewAdComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  submitForm(title: string, text: string){
+  let newAd: Ad = new Ad(title, text);
   }
 
 }
