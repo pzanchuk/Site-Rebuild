@@ -4,6 +4,10 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { NewAdComponent } from './new-ad/new-ad.component';
 
+
+
+
+
 const appRoutes: Routes = [
   {
     path: 'about',

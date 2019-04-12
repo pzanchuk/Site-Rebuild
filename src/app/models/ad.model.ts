@@ -1,6 +1,6 @@
 export class Ad {
 
-  constructor(public title: string, public body: string){
+  constructor(public title: string, public text: string){
 
   }
 }

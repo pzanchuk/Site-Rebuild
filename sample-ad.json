@@ -1,0 +1,14 @@
+{ "ads": [{
+    "title": " Piper At The Gates of Dawn",
+    "text": "Pink Floyd",
+    "id": "1"
+    }, {
+    "title": "Dilate",
+    "text": "Ani DiFranco",
+    "id": "2"
+      }, {
+    "title": "Axis Bold As Love",
+    "text": "Jimi Hendrix",
+    "id": "3"
+  }]
+}
