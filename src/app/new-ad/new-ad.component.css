@@ -1,0 +1,12 @@
+.header{
+  margin-top: 50px;
+  text-align: center;
+  color: #505050;
+}
+
+.form-for-ad{
+  border-radius: 10px;
+
+  border: 1px solid #808080;
+  height: 350px;
+}
