@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { Ad } from '../models/ad.model';
 import { FirebaseListObservable } from 'angularfire2/database';
 
+
 @Component({
   selector: 'app-show-ads',
   templateUrl: './show-ads.component.html',
@@ -19,5 +20,7 @@ export class ShowAdsComponent implements OnInit {
   ngOnInit() {
     this.ads = this.adService.getAds();
   }
+
+  
 
 }

@@ -15,9 +15,10 @@ export class NewAdComponent implements OnInit {
   ngOnInit() {
   }
 
-  submitForm(title: string, text: string){
-    let newAd: Ad = new Ad(title, text);
+  submitForm(title: string, text: string, color: string){
+    let newAd: Ad = new Ad(title, text, color);
     this.adService.saveAd(newAd);
+    console.log(newAd);
   }
 
 }

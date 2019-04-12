@@ -1,6 +1,6 @@
 <h2>Show adds</h2>
 
-<div *ngFor="let ad of ads | async" (click)="goToDetailPage(album)" class="panel panel-default">
+<div  *ngFor="let ad of ads | async" [style.background-color]="ad.color">
   <div class="panel-body">
     <h3><em>{{ad.title}}</em> and text {{ad.text}}</h3>
   </div>
