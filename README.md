@@ -8,7 +8,7 @@
 ## Description
 
 _This is a clone of ebay.com main page. Web page is capable of creating new ads by clicking "Get NOW" button right above the footer._
-_eBay Logo will get you back home. Footer "About" link is active. After new ad has been created, page will automatically be redirected to home page._
+_eBay Logo will get you back home. Footer "About" link is active. After new ad has been created, page will automatically be redirected to home page. Go to https://ebay-237a1.firebaseapp.com/ to see live page_ 
 
 ## Specifications
 
@@ -26,7 +26,7 @@ _eBay Logo will get you back home. Footer "About" link is active. After new ad h
 * _Alternatively, to clone the repository, type "git clone https://github.com/pzanchuk/Site-Rebuild in the terminal". (Note!: git, node.js should be installed on your PC).  For more information visit GitHub Help section Cloning a repository from GitHub:
 https://github.com/pzanchuk/Site-Rebuild_
 * _Angular mast be installed._
-* _To connect to Firebase you must create your own account and use your own API-key. Create file in directory app .../app/api-keys.ts. Name your database object variable "masterFirebaseConfig" and store your Firebase credentials in it. 
+* _To connect to Firebase you must create your own account and use your own API-key. Create file in directory app .../app/api-keys.ts. Name your database object variable "masterFirebaseConfig" and store your Firebase credentials in it.
 * _To run the project in browser: navigate in terminal to ../Site-Rebuild and run these lines to restore files "npm install", then "ng serve". Project will be loaded at a http://localhost:4200/_
 
 
