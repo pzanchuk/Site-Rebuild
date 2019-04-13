@@ -5,7 +5,6 @@
 }
 
 .form-for-ad{
-
   margin-left: 80px;
   margin-right: 80px;
   text-align: center;
@@ -17,6 +16,7 @@
 }
 
 #color{
+  margin-left: 162px;
   height: 70px;
 }
 
@@ -24,8 +24,8 @@
 input{
   width: 400px;
   margin-left: 100px;
-
 }
+
 textarea{
   margin-left: 117px;
   width: 400px;
